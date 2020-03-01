@@ -1,0 +1,2041 @@
+/*** InAcres Stylesheet ***/
+
+body{
+   /* background:url(../img/body-bg.jpg);*/
+    background-repeat: repeat;
+    overflow-x:hidden;
+    font-family: 'Caudex', serif;
+    background-color: #f5f7f2
+}
+
+h1{
+    font-size: 52px;
+    line-height: 120%;
+    font-family: 'Caudex', serif;
+}
+
+
+h2{
+    font-size: 32px;
+    font-family: 'Caudex', serif;
+    color: #3a542f;
+    font-weight: 600
+}
+
+h4{
+    font-size:22px;
+    font-family: 'Caudex', serif;
+}
+
+p{
+    font-size: 16px ;
+   
+    font-family: 'Catamaran', sans-serif;
+    color: #383836;
+    line-height: 150%;
+    font-weight: 500
+}
+.row
+{
+    margin: 0;
+    padding: 0;
+}
+.s2-h1{
+    font-size:38px;
+}
+
+.s2-p{
+    font-size:24px;
+}
+
+.s3-h1{
+    font-size:41px;
+}
+
+
+span.fa{
+    color:#fff;
+}
+
+@media(max-width: 520px){
+    h1{
+        font-size:1.9em;
+    }
+     h2{
+        font-size:1.5em;
+    }
+}
+
+.text-orange{
+    color:#FF8201;
+}
+
+.text-black{
+    color:#313131;
+}
+
+.text-white{
+    color:#fff;
+}
+
+.text-brown{
+    color:#924040;
+}
+
+.text-green{
+    color:#277C24;
+}
+.text-darkgreen
+{
+    color:#3a542f;
+}
+
+.text-violet{
+    color:#1A1B46;
+}
+
+.text-grey{
+    color:#606060;
+}
+
+.btn-bright-green{
+  background:#B43C00;
+  font-weight:bold;
+  
+}
+
+.btn-bright-green:hover,
+.btn-bright-green:focus,
+.btn-bright-green:active{
+    color:#B43C00 !important;
+    background: #fff;
+     border:1px solid #B43C00 !important;
+}
+
+.btn-green{
+  background:#347646;
+  font-weight:bold;
+  box-shadow: 2px 4px 4px #000;
+  border:1px solid #347646 !important;
+}
+
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active{
+    color:#81B72D !important;
+    background: #fff;
+     border:1px solid #347646 !important;
+}
+
+
+.btn-yellow{
+    color:#534423 !important;
+  background:#E6E040;
+  font-weight:bold;
+  font-size:16px;
+  padding:10px 45px;
+  box-shadow: 2px 4px 4px #000;
+  border:1px solid #347646 !important;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus,
+.btn-yellow:active{
+    color:#534423 !important;
+    background: #fff;
+     border:1px solid #E6E040 !important;
+}
+
+section{
+    padding:3.2em 0;
+}
+
+header{
+    background:url(../img/header.png);
+    position: relative;
+    z-index:1;
+    min-height:140px;
+     /*box-shadow: 0 2px 12px 0 rgba(0,0,0,0.08);*/
+}
+
+header.sticky-header{
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.08);
+}
+
+@media(max-width:480px){
+    section{
+        padding:2.4em 0;
+    }
+    header{
+        min-height:100px;
+    }
+}
+
+.width-80-desktop-block {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width:768px) {
+    .width-80-desktop-block {
+        max-width: 80%;
+    }
+    .width-70-desktop-block
+    {
+      max-width: 70%;  
+      margin: auto
+    }
+    .our-mission-vission-1
+    {
+        display: none
+    }
+    .sustainable-agriculture-table td {
+ 
+    padding-left: 33px !important; 
+}
+.gal-img
+{
+    position: absolute;
+    bottom: -49px
+}
+.gallery
+{
+    padding-bottom: 14%
+}
+.galimg-1
+{
+    padding-top: 5%
+}
+.mission
+{
+    margin:auto;
+}
+}
+
+.header-list ul{
+    float:right;
+    margin-top:10px;
+    list-style-type:none;
+}
+@media (max-width: 425px){
+    .header-list ul{
+        margin-top: 0px;
+    }
+}
+.header-list ul li a{
+    color:#313131;
+    font-size:18px;
+    line-height: 100%;
+    font-weight:bold;
+}
+
+.header-list ul li a.phone{
+    font-size:24px;
+    line-height: 100%;
+    text-align: right;
+    display: block;
+     font-family: 'Signika', sans-serif;
+}
+
+
+@media(max-width:480px){
+    .header-list ul li img{
+        width:100%;
+        max-width:25px;
+    }
+    .header-list ul li {
+        padding:5px 0px;
+    }
+    .header-list ul li a.phone {
+    font-size: 20px;
+    display: none;
+    }
+    .header-list ul li a{
+        font-size: 14px;
+    display: block;
+    }
+    .mob-disp{
+        display: none;
+    }
+}
+
+.home-banner{
+    position: relative;
+}
+
+.home-slider-panel{
+    margin-top:-50px;
+    position: relative;
+}
+
+.home-banner-intro{
+    position: relative;
+    padding:13% 0 25% 0;
+}
+
+.home-banner-intro p{
+    font-size:32px;
+    font-weight: 500;
+    color:#333;
+}
+
+
+.home-slider div{
+    outline:none;
+}
+
+
+.home-slider .slick-dots li button { 
+    display: none;
+}
+
+
+.home-slider .slick-dots{
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom:75px;
+    z-index:2;
+    position: absolute;
+}
+
+
+
+.home-slider .slick-dots li{
+    display: inline-block;
+    margin: 0px 3px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: #fff;
+   border: 1px solid #4F8039;
+   -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    cursor:pointer;
+    box-shadow: inset 0 0 0 4px rgba(255, 255, 255, .9)
+
+}
+
+.home-slider .slick-dots li.slick-active{
+    display: inline-block;
+    margin: 0px 3px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: #4F8039;
+    border: 1px solid #4F8039;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    cursor:pointer;
+    box-shadow: inset 0 0 0 4px rgba(255, 255, 255, .9)
+}
+
+
+.line-break{
+    display:block;
+}
+
+/*.banner-info-overlay{
+    padding:30px 30px;
+    background: rgba(17,79,22,0.69);
+}*/
+
+.slider-farmer{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+@media(max-width:1280px){
+    .home-slider .slick-dots{
+        bottom:120px;
+    }
+}
+
+@media(max-width:769px){
+    .home-banner-intro {
+        padding: 10% 0 15% 0;
+    }
+    .home-banner-intro h1{
+        font-size:35px;
+    }
+    .home-banner-intro p{
+        font-size:21px;
+    }
+}
+
+@media(max-width: 500px){
+
+    .home-banner-intro{
+        padding: 22% 0 18% 0;
+    }
+    .home-slider .slider-wrapper{
+        position: relative;
+        background-position: 29% !important;
+    }
+    .home-slider .slider-wrapper::after{
+    content: ' ';
+    position: absolute;
+    display: inline-block;
+   /* background: rgba(0,0,0,0.46) url(../img/half-tone.png) center center repeat;*/
+    background-size: 2px;
+    top: 0;
+    left: 0;
+    height: 105%;
+    width: 100%;
+    z-index: 0;
+    }
+
+    
+    .home-slider .home-banner-intro{
+        position:relative;
+        z-index:9999;
+    }
+    .home-banner-intro p{
+    font-size:1.4em;
+    }
+    .home-slider .slick-dots{
+        bottom: 45px;
+    }
+    .home-slider .slick-dots li{
+    width: 19px;
+    height: 19px;
+    }
+
+    .home-slider .slick-dots li.slick-active{
+        width: 19px;
+    height: 19px;
+    }
+    .header-logo{
+        max-width:initial;
+        width:150px;
+    }
+    .line-break{
+        display:inline;
+    }
+
+}
+
+.white-edge-top{
+    margin-top:-103px;
+}
+
+@media(max-width:1450px){
+    .white-edge-top{
+        min-height:50px;
+        margin-top:-103px;
+    }
+
+    .sustainable-agriculture-veggies img
+    {
+        width: 400px
+    }
+}
+
+@media(max-width:1280px){
+    .white-edge-top{
+        min-height:32px;
+        margin-top:-110px;
+    }
+
+    .slider-farmer img{
+        max-width: 100%;
+        width:590px;
+    }
+    .mobile-bg
+    {
+        min-height:49px !important;
+    }
+}
+
+@media(max-width:520px){
+    .white-edge-top{
+        min-height:23px;
+        margin-top:-45px;
+        margin-bottom: -2px
+    }
+    .mobile-bg
+    {
+        min-height:48px !important;
+    }
+
+}
+@media (min-width: 1650px)
+{
+    .social-responsibilty img
+    {
+        width: 550px
+    }
+}
+.header-list ul li a.whatsapp-link{
+    display: block;
+    background: #40722b;
+    color: #fff !important;
+    font-size: 14px;
+    text-decoration: none;
+    box-shadow: 0px 2px 2px #9a9494;
+    border-radius: 10px;
+    padding: 5px 8px;
+    margin-left:5px;
+}
+
+
+.csa-section{
+    position: relative;
+    
+    /*margin-top:-25px;*/
+}
+.background-white
+{
+    /*background: #fff;*/
+  /*  margin-bottom: 0px !important*/
+}
+.start-a-revolution
+{
+   /* background: #fff;*/
+   /* padding-top: 0px*/
+}
+.csa-section .card p{
+   font-size: 16px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.csa-icons{
+    position: relative;
+}
+
+.csa-icons .icon-elem{
+    position: absolute;
+    top:27%;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+
+.csa-section .mirchi-img{
+    position: absolute;
+    left:0;
+    top:150px;
+}
+
+.csa-section .side-sticky-leaves{
+    position: absolute;
+    top:-150px;
+    right:0px;
+}
+
+.steps-panel{
+    position: relative;
+    /*margin-bottom:100px;*/
+}
+
+.steps-panel.with-bg{
+   /* background: #fff;*/
+   /* margin-top:-25px;*/
+}
+
+.steps-panel p{
+    color:#383836;
+    
+    line-height: 150%;
+}
+
+.steps-panel ul.leaf{
+    list-style-type: none;
+padding: 0;
+margin: 0;
+    
+}
+
+.steps-panel ul.leaf li{
+    min-height: 42px;
+    padding-left: 44px;
+    padding-top: 3px;
+    font-style: italic;
+    font-weight: 400;
+    color: #484848;
+    font-size: 20px;
+    line-height: 135%;
+    margin-bottom: 0px;
+    margin-left:-10px;
+    background: url(../img/leaf.png) no-repeat left top;
+}
+
+.steps-wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+.steps-wrapper .step{
+    font-size:130px;
+    font-weight:bold;
+    position: absolute;
+    top:-75px;
+    left:-60px;
+    right:0;
+    text-align:center;
+    display:block;
+    font-family: 'Signika', sans-serif;
+}
+
+.steps-panel .mud-img{
+    position: absolute;
+    left:0;
+    top:-60px;
+    z-index:-1;
+}
+
+.steps-panel .side-sticky-big-leaves{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+   
+}
+
+.toil-leaves{
+    position: absolute;
+    left:0;
+    top:290px;
+    
+}
+
+.steps-panel .mud-img-bottom{
+    position: absolute;
+    left:0;
+    bottom:-70px;
+    z-index:-1;
+}
+
+.steps-panel .side-sticky-cows{
+    position: absolute;
+    top:200px;
+    right:0px;
+}
+
+.steps-panel .veg-blown{
+    position: absolute;
+    left:0;
+    top:150px;
+}
+
+.steps-panel .side-sticky-tomato{
+     position: absolute;
+    top:-110px;
+    right:0px;
+}
+
+
+.steps-panel .side-sticky-veg-store{
+    position: absolute;
+    top:75px;
+    right:0px;
+}
+
+
+.steps-panel .side-sticky-veg-store img{
+    max-width:100%;
+    width:550px;
+}
+
+@media(max-width:1440px){
+    .csa-section .mirchi-img img{
+         max-width:100%;
+         width:200px;   
+    }
+    .csa-section .side-sticky-leaves img{
+        max-width:100%;
+         width:200px; 
+    }
+    .steps-panel .mud-img img{
+         max-width:100%;
+         width:170px; 
+    }
+    .steps-panel .side-sticky-big-leaves img{
+         max-width:100%;
+         width:530px; 
+    }
+    .toil-leaves img{
+         max-width:100%;
+         width:510px; 
+    }
+    .steps-panel .side-sticky-cows img{
+        max-width:100%;
+         width:540px; 
+    }
+    .steps-panel .veg-blown img{
+         max-width:100%;
+         width:540px; 
+    }
+    .steps-panel .side-sticky-veg-store img{
+         max-width:100%;
+         width:430px; 
+    }
+}
+
+@media(max-width:1199px){
+    .steps-panel .side-sticky-big-leaves img{
+         width:400px; 
+    }
+    .steps-panel .mud-img img{
+         max-width:100%;
+         width:130px; 
+    }
+    .toil-leaves img{
+         max-width:100%;
+         width:340px; 
+    }
+    .steps-panel .side-sticky-cows img{
+        max-width:100%;
+         width:480px; 
+    }
+    .steps-panel .veg-blown img{
+         max-width:100%;
+         width:410px; 
+    }
+
+     .steps-panel .side-sticky-veg-store{
+        top:290px;
+     }
+     .steps-panel .side-sticky-veg-store img{
+         max-width:100%;
+         width:310px; 
+    }
+}
+
+@media(max-width:991px){
+   
+    .steps-panel .side-sticky-cows img{
+        max-width:100%;
+         width:300px; 
+    }
+    .steps-panel .side-sticky-big-leaves{
+    position: absolute;
+        
+    }
+     .steps-panel .veg-blown img{
+         max-width:100%;
+         width:390px; 
+    }
+
+     .steps-panel .side-sticky-veg-store{
+        top:310px;
+     }
+    .steps-panel .side-sticky-veg-store img{
+         max-width:100%;
+         width:210px; 
+    }
+}
+
+@media(max-width:769px){
+    .csa-section .mirchi-img img{
+         max-width:100%;
+         width:90px;   
+    }
+    .csa-section .side-sticky-leaves img{
+        max-width:100%;
+         width:110px; 
+    }
+     .steps-panel .side-sticky-big-leaves{
+      
+     }
+     .steps-panel .side-sticky-big-leaves img{
+         width:360px; 
+    }
+    .steps-panel .side-sticky-cows{
+        top:-30px;
+    }
+     .steps-panel .side-sticky-cows img{
+        max-width:100%;
+         width:240px; 
+    }
+    .steps-panel .veg-blown img{
+         max-width:100%;
+        width:210px;
+    }
+
+    .steps-panel .side-sticky-veg-store img{
+         max-width:100%;
+         width:140px; 
+    }
+    .slider-farmer img{
+        max-width: 100%;
+        width:300px;
+    }
+}
+
+@media(max-width:575px){
+     .toil-leaves{
+        right:0;
+        top:20px;
+        left:initial;
+        position: initial;
+        margin-bottom: -20px;
+        display:none;
+    }
+     .toil-leaves img{
+    -webkit-transform: initial;
+    transform: initial;
+    max-width: 100%;
+    width: 350px;
+    /* -webkit-transform: scaleX(-1); */
+    /* transform: scaleX(-1); */
+    display: block;
+    margin: 0 auto;
+    transform: rotate(270deg);
+    }
+   .steps-panel .side-sticky-tomato {
+        top:-50px;
+    }
+    .steps-panel .side-sticky-tomato img{
+        max-width:100%;
+        width:60px;
+    }
+    .steps-panel .veg-blown{
+        right:0;
+        top:20px;
+        left:initial;
+        position: initial;
+        margin-bottom:-45px;
+        display:none;
+    }
+     .steps-panel .veg-blown img{
+        max-width:100%;
+        width:350px;
+        display:block;
+        margin:0 auto;
+    -webkit-transform: initial;
+    transform:initial;
+    transform: rotate(270deg);
+    }
+   
+     .steps-panel.last{
+        margin-bottom:5px;
+    }
+     .steps-panel .mud-img{
+         top:-75px;
+    }
+     .steps-panel .mud-img img{
+         width:75px; 
+    }
+    .csa-section .side-sticky-leaves img{
+        max-width:100%;
+         width:80px; 
+    }
+    
+    
+     .steps-panel .side-sticky-big-leaves img{
+         width:210px; 
+    }
+
+    .steps-panel .mud-img-bottom{
+        bottom:-140px;
+    }
+
+    .steps-panel .side-sticky-veg-store{
+        top:-40px;
+        display: none;
+    }
+     .steps-panel .side-sticky-cows{
+        position: initial;
+        display:none;
+     }
+   .steps-panel .side-sticky-cows img{
+     max-width: 100%;
+    width: 350px;
+    margin: 0 auto;
+    display: block;
+   }
+
+    .steps-panel .side-sticky-veg-store img{
+         max-width:100%;
+         width:200px; 
+    }
+    .home-banner-intro h1 {
+        font-size: 24px;
+    }
+
+    .home-banner-intro p{
+        font-size:18px !important;
+    }
+    .s2-h1{
+        font-size:24px !important;
+    }
+
+    .s2-p{
+        font-size:18px !important;
+    }
+
+    .s3-h1{
+        color:#fff !important;
+        font-size:24px !important;
+    }
+    .s3-p{
+         color:#fff !important;
+    }
+    .slider-farmer{
+       right:0;
+       left:0;
+       margin:0 auto;
+    }
+    .slider-farmer img{
+        max-width: initial;
+        width:400px;
+    }
+    .banner-info-overlay{
+        background: none;
+        padding:initial;
+    }
+    .csa-mobile-wrapper{
+        margin-top: -30px;
+    }
+    .header-list ul li a.whatsapp-link{
+        font-size:12px;
+    }
+    .csa-icons img{
+        max-width:100%;
+        width:75px;
+    }
+    .icon-elem img{
+         max-width:100%;
+        width:35px;
+    }
+    .card-deck .card{
+        margin-bottom: 5px !important;
+    }
+}
+
+
+.form-section{
+  background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  min-height: 410px;
+/*  background-attachment: fixed;*/
+  position: relative;
+  z-index:0;
+  margin-top: -20px
+}
+
+@media(min-width:1601px){
+    .form-section{
+         min-height:500px;   
+    }
+}
+
+
+label.error{
+  color:red !important;
+}
+.cust-error{
+    color:red !important;
+}
+
+.form-section .form-control{
+    border:2px solid #A7A09B;
+    padding-bottom:12px;
+    color:#fff;
+    background:none !important;
+}
+
+
+.form-section .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  font-size:16px;
+  opacity: 1; /* Firefox */
+}
+
+.form-section .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+   font-size:16px;
+}
+
+.form-section .form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+   font-size:16px;
+}
+
+.side-sticky-organic-seal{
+    position: absolute;
+    top:112px;
+    right:8%;
+}
+
+.form-section-wrapper{
+    margin-top:45px;
+
+}
+
+@media(max-width:1440px){
+    .side-sticky-organic-seal{
+        right:5%;
+    }
+}
+
+@media(max-width:1280px){
+    .side-sticky-organic-seal{
+        right:1%;
+    }
+}
+
+@media(max-width:992px){
+    .side-sticky-organic-seal{
+        right:1%;
+    }
+
+    .side-sticky-organic-seal img{
+        max-width:100%;
+        width:120px;
+    }
+}
+
+@media(max-width:768px){
+    .side-sticky-organic-seal img{
+        max-width:100%;
+        width:70px;
+    }
+    .benefits- p
+    {
+        max-width: 90%;
+        margin: auto
+    }
+    .start-a-revolution h3 {
+  
+    font-size: 22px !important;
+}
+
+
+}
+@media only screen and (max-width: 767px)
+{
+ .right-side-leaves, .right-bottom-side,  .right-side, .steps-panel .side-sticky-big-leaves, .side-sticky-big-leaves-1, .right-side-top-mud, .right-side-pattern,.side-sticky-big-leaves-1 img, .our-mission
+     {
+        display: none
+     }
+   .our-mission-vission,.side-element-right, .left-side-leaves, .sustainable-agriculture img
+   {
+    display: none
+   }
+    .our-team-side-img, .our-team-side-img-pattern, .social-responsibilty img,.sustainable-agriculture-veggies img
+    {
+        display: none
+    }
+    .side-sticky-top img
+    {
+        display: none
+    }
+     .left-side-slider img
+     {
+        width:50px;
+     }
+     .left-side-slider
+     {
+        top:-10% !important;
+     }
+      .left-side img
+     {
+        width:120px;
+     }
+     .our-history img
+
+     {
+width:120px;
+     }
+     .home-slider-panel .slider-2
+     {
+        min-height: 320px !important
+     }
+     .footer-icons-right img {
+   
+    width: 50px !important;
+}
+.light-bg-table {
+    padding: 11px !important;
+    
+}
+.project_highlights li {
+ 
+    padding-left: 14% !important;
+   
+}
+.watersource-icon
+{
+    display: none
+}
+.gallery img
+{
+    margin-top: 20px
+}
+}
+@media(max-width:575px){
+     .side-sticky-organic-seal{
+        top:unset;
+        bottom:15px
+    }
+    .side-sticky-organic-seal img{
+        max-width:100%;
+        width:100px;
+    }
+    .form-section .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        font-size:14px;
+    }
+    .form-section .col{
+    flex: initial !important;
+    }
+    .mob-header{
+        font-size:20px;
+    }
+}
+
+.footer{
+    font-size:12px;
+    font-weight:bold;
+}
+
+.footer a{
+    color:#313131;
+    font-weight:bold;
+}
+
+
+.thankyou-panel{
+    background: url(../img/thank-you-banner.jpg)no-repeat;
+    background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.sign-up-wrap2{
+    padding:30% 0;
+}
+
+.btn-yellow-thankyou{
+    border-radius:25px;
+    background: #E6E040;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border:1px solid #924040 !important;
+}
+
+
+.whatsapp{
+    background: #40722b;
+    color: #fff !important;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px 8px;
+    display:inline-block;
+}
+
+.whatsapp:hover{
+    text-decoration: none;
+}
+
+@media(max-width:769px){
+    .thankyou-panel:after{
+         content: ' ';
+    position: absolute;
+    display: inline-block;
+    background: rgba(0,0,0,0.46) url(../img/half-tone.png) center center repeat;
+    background-size: 2px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    }
+    .sign-up-wrap2{
+    padding:15% 0;
+    z-index:1;
+    position: relative;
+    }
+    .sign-up-wrap2 h1{
+        color:#fff;
+    }
+     .sign-up-wrap2 p{
+        color:#fff !important;
+     }
+    .mob-text-white{
+        color:#fff !important;
+    }
+     .btn-yellow-thankyou{
+        color:#407244 !important;
+     }
+}
+
+@media(max-width:575px){
+    .social-links img{
+        max-width:100%;
+        width:25px;
+    }
+    p{
+        font-size:14px;
+    }
+    .steps-panel ul.leaf li{
+        font-size:16px;
+    }
+    .steps-panel p {
+    font-size: 18px;
+    }
+    .btn-green{
+        font-size:14px;
+    }
+    .footer a {
+    font-size: 11px;
+    display: block;
+    }
+    .hide-line-mobile{
+        display:none;
+    }
+    .steps-panel ul.leaf li{
+        min-height:52px;
+    }
+    .btn-bright-green{
+        font-size:12px;
+    }
+    .sign-up-wrap2{
+        padding:25% 0;
+        text-align:center;
+    }
+    .sign-up-wrap2 h1{
+        font-size:45px;
+    }
+}
+
+@media(max-width:375px){
+    .csa-section .mirchi-img{
+        top:10px;
+    }
+    .steps-panel .side-sticky-big-leaves {
+        top: 0px;
+    }
+    .white-edge-bottom{
+        margin-top:-10px !important;
+    }
+    .steps-panel{
+        margin-bottom:40px;
+        margin-top: -10px
+    }
+    .steps-panel .side-sticky-cows img {
+        width: 160px;
+    }
+    .steps-panel .side-sticky-veg-store img {
+    width: 165px;
+    }
+    .social-links img {
+    width: 22px;
+    }
+}
+
+
+
+
+.leadform {
+    width: 100%
+}
+
+.leadform legend {
+    display: block;
+    background: #3D3D3B;
+    padding: 15px;
+    color: #E9E9E9;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0px
+}
+
+.leadform .wrapper {
+    padding: 30px 21px 15px;
+    background: #fff
+}
+
+.input-group {
+    margin: 15px 0
+}
+
+.input-group .form-control {
+    margin: 0px
+}
+
+.input-group .input-group-addon {
+    border-color: #C65E06;
+    color: #C65E06;
+    background: #4F8138
+}
+
+.form-control {
+    font-size: 11px;
+    line-height: 30px;
+    margin: 0px;
+    height: 44px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #B1B1B1;
+    border-color: #dedcd7 !important;
+    outline: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+}
+
+.form-group label.error,
+.form-group label.cust-error {
+    color: #8b0000;
+    font-size: 12px;
+    padding: 3px;
+    line-height: 1;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 6px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-weight: 400
+}
+.ajaxFormButton{
+    color:#fff !important;
+    background:#6CA725 !important;
+}
+
+#hidden_div {
+    display: none;
+}
+
+h4.modal-title{
+    font-size: 18px;
+     color: #C65E06;
+}
+
+label{
+    font-family: "Catamaran", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#test{
+    background-color: #afabab;
+    color: black;
+    font-size: 16px;
+}
+
+.modal-header{
+    display: block;
+}
+
+
+.google-maps {
+        position: relative;
+        padding-bottom: 30%;
+        height: 0;
+        overflow: hidden;
+    }
+
+@media (max-width:425px){
+   .google-maps {
+    padding-bottom: 60%;
+   } 
+}
+@media (max-width:360px){
+   .google-maps {
+    padding-bottom: 70%;
+   } 
+}
+
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+@media (max-width: 425px){
+.mobile-call {
+    display: block !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 15px;
+    background: #fff;
+    color: #C65E06;
+    z-index: 999;
+    font-size: 22px;
+   
+    font-weight: bold;
+   
+ }
+}
+@media (min-width: 425px){
+    .mobile-call{
+        display: none;
+    }
+}
+@media only screen and (max-width: 991px)
+{
+    iframe
+    {
+        
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1240px)
+{
+    .toil-leaves img
+    {
+        width: 450px
+    }
+    .steps-panel .side-sticky-big-leaves img {
+    
+    width: 500px;
+}
+
+}
+@media only screen and (max-width: 991px) and (min-width:767px)
+{
+.toil-leaves img {
+    max-width: 100%;
+    width: 350px;
+}
+.right-side img
+{
+    width:150px;
+}
+.left-side img
+{
+    width:200px;
+}
+.right-side-leaves img
+{
+ width:150px;   
+}
+.left-side-slider img
+{
+width:80px; 
+}
+.right-bottom-side img
+{
+width:170px; 
+}
+.side-sticky-big-leaves-1 img
+{
+    width:375px;
+}
+.benefit-small-img img
+{
+    width:140px;
+}
+.benefit-big-img img
+{
+    width:400px;
+    margin-bottom: 4%
+}
+.sustainable-agriculture-veggies img
+{
+    width: 350px
+}
+}
+@media only screen and (max-width:767px)
+{
+.toil-leaves img {
+    max-width: 100%;
+    width: 200px;
+}
+}
+@media only screen and (max-width:650px)
+{
+.steps-panel .side-sticky-big-leaves img{
+         width:200px; 
+    }
+    }
+@media (max-width: 650px)
+{
+.white-edge-top {
+   
+    margin-bottom: -2%;
+}
+}
+
+.center .slick-current
+{
+    transform: scale(1.2);
+    position: relative;
+    z-index: 1;
+
+}
+
+.right-side
+{
+    position: absolute;
+    right: 0px;
+    top: -12%;
+}
+.left-side
+{
+    position: absolute;
+    left: 0px;
+    top: -4%;
+}
+.right-bottom-side
+{
+    position: absolute;
+    right: 0px;
+    bottom: -20px;
+}
+
+.card
+{
+    background-color: transparent;
+}
+.right-side-leaves
+{
+    position: absolute;top:-3%;right:0px;
+}
+.left-side-slider
+{
+    position: absolute;top:-18%;left:0px;
+}
+.side-sticky-big-leaves-1
+{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    margin:auto;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+.footer-link ul li
+{
+    display: inline-block;
+    padding:20px;
+    color: #B43C00;
+    font-size:18px; 
+    font-weight: 700
+}
+.breadcrumbs-pts li
+{
+    list-style: none;
+    display: inline-block;
+    padding-right: 2%;
+    font-size: 16px;
+    font-weight: 700
+}
+.project-highlights-pt li
+{
+    list-style: none
+}
+.project-highlights-pt
+{
+    margin: 0;
+    padding: 0
+}
+.dark
+{
+    background-color: #e8eae7;
+}
+.yellow-block
+{
+    background-color: #baa65f;
+    padding: 13px 0px 1px 0px;
+    text-align: center;
+    color: #fff;
+}
+.yellow-block p
+{
+    color: #fff;
+    font-size:20px
+}
+td
+{
+    text-align: center;
+}
+th
+{
+    text-align: center;
+}
+table
+{
+    width: 100%
+}
+@media only screen and (min-width: 991px)
+{
+.side-sticky-big-leaves-1 img {
+    width: 350px;
+}
+}
+@media only screen and (min-width: 1720px)
+{
+.steps-panel .side-sticky-big-leaves img {
+    width: 600px;
+}
+.steps-panel .side-sticky-big-leaves {
+    
+    top: 12%;
+   
+}
+}
+@media only screen and (min-width:1200px) and (max-width: 1400px)
+{
+    .side-sticky-big-leaves-1 img {
+    width: 300px;
+}
+}
+@media only screen and (min-width: 991px)
+{
+    .right-side img
+    {
+        width: 150px;
+    }
+}
+.start-a-revolution h3
+{
+    color:#c65e06;
+    font-size: 24px
+}
+@media only screen and (max-width: 768px)
+{
+    .benefit-small-img img
+{
+    width:110px;
+}
+.benefit-big-img img
+{
+    width:300px;
+    margin-bottom: 1%
+}
+ .footer-link ul li 
+ {
+    display: block;
+    padding: 8px !important
+ }
+ .form-section-wrapper {
+    margin-top: 15px;
+    margin-bottom:20px;
+}
+h2
+{
+    font-size: 22px;
+}
+p
+{
+    font-size: 16px;
+}
+.light-bg-table-1
+{
+    min-height: 104px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+.agri-services
+{
+width:100% !important
+}
+}
+.right-side-pattern img
+{
+    position: absolute;right: 0px;top:90px;
+    width:250px;z-index: 1
+}
+.right-side-top-mud img
+{
+    position: absolute;right: 0px;top:10px;
+    width:150px;
+}
+@media only screen and (max-width: 1240px)
+
+{
+    .footer-link ul li {
+    
+    padding: 15px;
+   
+}
+}
+.footer-icons-right img
+{
+    float:right;
+    width:80px;
+    padding-right: 1%;
+    padding-bottom: 3%;
+
+}
+.bottom-line
+{
+    clear: both;
+   border-top: 1px solid #fff 
+}
+
+.footer-icons
+{
+    /* border-bottom: 1px solid #fff*/
+    padding-top: 6%
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+
+.right-bottom-side img
+{
+    width:180px;
+}
+
+.sustainable-agriculture-veggies img
+{
+    width: 400px
+}
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px)
+{
+
+.video-panel
+{
+    padding-bottom: 9%
+}
+}
+
+@media only screen and (max-width: 576px)
+{
+.col-xs-6
+{
+    max-width: 50%;
+    flex:0 0 50%;
+}
+.video-panel
+{
+    padding-bottom: 19% !important
+}
+.benefit-small-img p
+{
+    padding-bottom: 2%
+}
+}
+.mb-0
+{
+    margin-bottom: 0px
+}
+.col-price-left
+{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-right: 1px solid #333
+}
+.col-price-right
+{
+text-align: center;
+padding-left: 0px;
+    padding-right: 0px;
+
+}
+.price-table
+{
+    margin-top: 30px;
+    border:1px solid #333;
+}
+.light-bg-table
+{
+    padding: 16px;
+    background-color: #33333321
+}
+.price-table-1
+{
+   border:1px solid #333; 
+}
+.price-table-1 p
+{
+font-weight:700
+}
+.project-highlights-pt
+{
+    position: relative;
+
+}
+.project-highlights-pt li span
+{
+   /* position: absolute;*/
+}
+.project-highlights-pt li
+{
+    margin-bottom: 2%;
+    margin-top: 1%
+}
+
+.vision
+{
+    margin: auto;
+}
+.our-team-side-img
+{
+    position: absolute;
+    top:20%;
+    right: 0px;
+}
+.our-history
+{
+    position: absolute;
+    bottom:-10%;    left:  0px;
+}
+.our-mission
+{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    z-index: -1
+}
+.team-deatil span
+{
+    color:#B43C00;
+}
+.president 
+{
+    border-bottom: 1px solid #333
+}
+.other-team-member h4
+{
+    text-align: center;
+    padding-top: 10px;
+    color:#3a542f;
+    font-size: 20px
+}
+.other-team-member p
+{
+    text-align: center;
+   
+}
+.other-team-member p span
+{
+   color:#B43C00;
+}
+.other-team-member p .desc
+{
+    width:70%;
+    margin: auto
+}
+.our-team-side-img-pattern img
+{
+    position: absolute;
+    left:0px;
+    top:30px;
+}
+.our-mission-vission-1 img
+{
+    margin:10px 0px 16px 0px;
+}
+.project-highlights-pt li::before
+{
+    background: url("../img/project-highlights.png");
+    content: '';
+    position: relative;
+    z-index: 999;
+    top: 10px;
+    left: -15px;
+}
+.breadcrumbs
+{
+    padding:1.5em 0;
+    padding-bottom: 0px
+}
+.social-responsibilty
+{
+    position: absolute;
+    top:0;
+    margin: auto;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    right: 0
+}
+.sustainable-agriculture-veggies
+{
+    position: absolute;
+    top:0;
+    margin: auto;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    right: 0
+}
+
+.agri-services
+{
+    margin: auto
+}
+.sustainable-agriculture-table td
+{
+    text-align: left;
+    padding: 8px;
+    border:1px solid #baa65f
+}
+.sustainable-agriculture-table tr
+{
+border:1px solid #baa65f
+}
+.breadcrumbs-pts
+{
+    padding: 0
+}
+.price-table p
+{
+font-weight:700
+}
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+    .certificate-section h2, .certificate-section p
+    {
+        text-align: right
+    }
+    .csa-originated h2, .csa-originated p
+    {
+        text-align: right
+    }
+    .our-mission img
+    {
+        width:100px;
+    }
+    .our-history img
+    {
+       width:200px; 
+    }
+    .our-team-side-img img
+    {
+        width:200px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+.social-responsibilty img
+{
+width:250px
+}
+}
+@media only screen and (min-width: 1620px)
+{
+    .csa-model 
+     {
+        background-size: 100% 100% !important
+     }
+     .video-panel
+     {
+        background-size: 100% 100% !important
+     }
+}
+.side-element-right img
+{
+position:absolute;
+right:0px;
+top:-10%;
+}
+.left-side-leaves
+{
+position:absolute;
+left:0px;
+bottom:-15%;
+z-index:1
+}
+.sustainable-agriculture img
+{
+position:absolute;
+right:0px;
+z-index:1;
+bottom: -34%;
+}
+.project_highlights li
+{
+    list-style: none;
+    /*display: inline-block;*/
+    padding-left: 10%;
+    padding-bottom: 10px;
+}
+.project-highlights-pt img {
+ 
+    margin-top: -2%;
+}
+.project_highlights img
+{
+    display: inline-block;
+    position: absolute;
+}
+.project_highlights
+{
+    padding: 0
+}
+.mb-0
+{
+    margin-bottom: 0px
+}
+.side-sticky-top
+{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.box
+{
+    padding: 20px;
+    border:1px solid #baa65f;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+.highlight-1 img
+{
+    margin: auto;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    padding-left: 22%
+}
+.vl
+{
+  border-left: 6px solid green;
+  height: 500px;
+}
+.gallery img
+{
+    width:100%;
+}
+.form-item{
+width: 50%;
+float: left;
+}
+.sustainable-agriculture-veggies img
+{
+position: relative;
+    right: 0px;
+   z-index: -1
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1320px)
+{
+    .our-history img {
+    width: 200px;
+}
+}
+@media (max-width: 768px){
+.form-item{
+width: 100%;
+}
+
+}

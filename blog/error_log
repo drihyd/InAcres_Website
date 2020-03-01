@@ -1,0 +1,104 @@
+[18-Feb-2020 06:36:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/template-blog.php on line 53
+[18-Feb-2020 06:37:50 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/template-blog.php on line 53
+[18-Feb-2020 06:58:25 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/template-blog.php on line 51
+[18-Feb-2020 06:58:31 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/template-blog.php on line 51
+[18-Feb-2020 11:14:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/functions.php on line 128
+[18-Feb-2020 11:17:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:41
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 41
+[18-Feb-2020 11:17:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:41
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 41
+[19-Feb-2020 08:29:08 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/category.php on line 51
+[19-Feb-2020 08:34:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:41
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 41
+[19-Feb-2020 08:34:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:41
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 41
+[19-Feb-2020 08:35:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:41
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 41
+[19-Feb-2020 08:35:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:61
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 61
+[19-Feb-2020 08:36:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:61
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 61
+[19-Feb-2020 08:37:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:61
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 61
+[19-Feb-2020 08:37:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:61
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 61
+[19-Feb-2020 08:38:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:61
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 61
+[19-Feb-2020 08:38:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:61
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 61
+[19-Feb-2020 08:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:61
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 61
+[19-Feb-2020 08:40:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:61
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 61
+[19-Feb-2020 08:40:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pagination_bar() in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php:61
+Stack trace:
+#0 /home/deepred/public_html/demos/InAcres-website/blog/wp-includes/template-loader.php(98): include()
+#1 /home/deepred/public_html/demos/InAcres-website/blog/wp-blog-header.php(19): require_once('/home/deepred/p...')
+#2 /home/deepred/public_html/demos/InAcres-website/blog/index.php(17): require('/home/deepred/p...')
+#3 {main}
+  thrown in /home/deepred/public_html/demos/InAcres-website/blog/wp-content/themes/acres/search.php on line 61

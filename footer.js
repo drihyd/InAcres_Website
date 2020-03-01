@@ -1,0 +1,30 @@
+function printfooter() {
+document.write("<section class=\"form-section\">");
+document.write("<div class=\"container\">");
+document.write("<div class=\"form-section-wrapper row\" >");
+document.write("<div class=\"col-xs-12 col-sm-4\">"); 
+document.write("<img src=\"img/logo.png\" class=\"img-fluid\">");
+document.write("<\/div>"); 
+document.write("<div class=\"col-xs-12 col - sm - 8 \">"); 
+document.write("<div class=\"footer-link \">");
+document.write("<ul>"); 
+document.write("<a href=\"#\"><li>FAQ<\/li><\/a>"); 
+document.write("<a href=\"blog \"><li>Blogs<\/li><\/a>");
+document.write("<a href=\"community_shadnagar.html\"><li>Shadnagar<\/li><\/a>");
+document.write("<a href=\"bhutpur.html \"><li>Bhutpur<\/li>\</a>");
+document.write("<a href=\"#\"><li>CSA Website</li><\/a>");
+document.write("<\/ul>"); 
+document.write(" <\/div>");
+document.write(" <\/div>"); 
+document.write(" <\/div>"); 
+document.write(" <\/div>");
+document.write("<div class=\"container footer-icons\">"); 
+document.write("<div class=\" footer-icons-right\">");
+document.write("<a href=\"https://www.youtube.com/watch?v=YceZ9Suzr1g\" target=\"_blank\">    <img src=\"img/YT.png\" class=\"img-fluid \"> <\/a>"); 
+document.write("<a href=\"https://www.facebook.com/InAcres\" target=\"_blank\">   <img src=\"img/fb.png\" class=\"img - fluid \"><\/a>");
+document.write(" <\/div>"); document.write(" <\/div>"); 
+document.write("<div class=\"container \">"); 
+document.write("<div class=\"col- sm-12 bottom-line \"><\/div>"); 
+document.write(" <\/div>"); 
+document.write(" <\/section>");
+}
